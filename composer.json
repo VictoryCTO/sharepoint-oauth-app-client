@@ -14,7 +14,7 @@
 	],
 	"require": {
 		"php": ">=5.4.0",
-		"guzzlehttp/guzzle": "~5.0",
+        "guzzlehttp/guzzle": "^7.2",
 		"firebase/php-jwt": "1.*",
 		"nesbot/carbon": "~1.0"
 	},
@@ -24,6 +24,11 @@
 	"autoload": {
 		"psr-4": {
 			"WeAreArchitect\\SharePoint\\": "src/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"kylekatarnls/update-helper": true
 		}
 	}
 }
